@@ -1,0 +1,5 @@
+<mapper namespace="bean.UserMapper">
+    <select id="selectById" resultType="bean.User">
+        select userid as userId,username as userName,userage as userAge from user where userid=?
+    </select>
+</mapper>
