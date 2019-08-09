@@ -6,5 +6,6 @@ public class Main {
         UserMapper mapper = mySqlSession.getMapper(UserMapper.class);
         User user = mapper.selectById(1);
         System.out.println(user.toString());
+        System.out.println("aa");
     }
 }
