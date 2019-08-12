@@ -3,7 +3,7 @@ package bean;
 public class User {
     int userId;
     String userName;
-    String userAge;
+    int userAge;
 
     public int getUserId() {
         return userId;
@@ -21,11 +21,12 @@ public class User {
         this.userName = userName;
     }
 
-    public String getUserAge() {
+
+    public int getUserAge() {
         return userAge;
     }
 
-    public void setUserAge(String userAge) {
+    public void setUserAge(int userAge) {
         this.userAge = userAge;
     }
 
